@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="net.ve.perforosven.operaciones" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Perforosven Operaciones</name>
+    <description>
+       Control de datos
+    </description>
+    <author email="ing.cesarsilvera@gmail.com" href="https://didigitales.tigersoftware.net.ve">
+        Gerencia de operaciones
+    </author>
+    <icon src="icon.png" />
+    <content src="index.html" />
+    <preference name="KeepRunning" value="true"/>
+    <preference name="BackgroundColor" value="#FCFCFC"/>
+    <preference name="StatusBarBackgroundColor" value="#FFDF18" />
+    <preference name="HideKeyboardFormAccessoryBar" value="true"/>
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
+    <preference name="android-targetSdkVersion" value="28" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="android">
+        <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="www/res/icon/android/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="www/res/icon/android/drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="www/res/icon/android/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="www/res/icon/android/drawable-xxxhdpi-icon.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
