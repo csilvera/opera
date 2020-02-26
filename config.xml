@@ -9,17 +9,17 @@
     </author>
     <icon src="icon.png" />
     <content src="index.html" />
-    <preference name="KeepRunning" value="true"/>
-    <preference name="BackgroundColor" value="#FCFCFC"/>
+    <preference name="KeepRunning" value="true" />
+    <preference name="BackgroundColor" value="#FCFCFC" />
     <preference name="StatusBarBackgroundColor" value="#FFDF18" />
-    <preference name="HideKeyboardFormAccessoryBar" value="true"/>
+    <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="21" />
     <preference name="phonegap-version" value="cli-9.0.0" />
     <preference name="android-targetSdkVersion" value="28" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
-    <plugin name="cordova-plugin-dialogs" spec="2.0.2" />
-    <plugin name="cordova-plugin-vibration" spec="3.1.1"/>
+    <plugin name="cordova-plugin-vibration" spec="~3.1.1" />
+    <plugin name="cordova-plugin-dialogs" spec="~2.0.2" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
