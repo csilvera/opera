@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="net.ve.perforosven.operaciones" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Perforosven Operaciones</name>
+    <description>
+       Control de datos
+    </description>
+    <author email="ing.cesarsilvera@gmail.com" href="https://didigitales.tigersoftware.net.ve">
+        Gerencia de operaciones
+    </author>
+    <icon src="icon.png" />
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="KeepRunning" value="true" />
+    <preference name="BackgroundColor" value="#FCFCFC" />
+    <preference name="StatusBarBackgroundColor" value="#FFDF18" />
+    <preference name="HideKeyboardFormAccessoryBar" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
+    <preference name="android-targetSdkVersion" value="28" />
+</widget>
